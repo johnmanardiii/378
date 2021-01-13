@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-6"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Lab 1</command>
+    <result xml:space="preserve">Midsummer Day&#x000A;An Interactive Fiction by John Manard III The story headline is "A Digital Dalliance"&#x000A;Release 1 / Serial number 210112 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Convenience Store&#x000A;Sitting behind the counter you see a familiar sight. Rows of snacks, coffee, and rotating hot dogs line the aisles of the convenience store you work at. Opposite your counter is a door leading out to the convenience store parking lot. Streetlights shine in through the large window overlooking the sidewalk. &#x000A;A shady-looking man enters the convinence store, averting his gaze from others and inspecting various items throughout the isles aimlessly. It is a quiet night for the store, it is just you and a seedy looking man here tonight.&#x000A;&#x000A;You can see a man in a black hat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-2"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Convenience Store&#x000A;Several aisles line the store containing various products. Opposite your counter is a door leading out to the convenience store parking lot. Streetlights shine in through the large window overlooking the sidewalk.  It is a quiet night for the store, it is just you and a seedy looking man here tonight.&#x000A;&#x000A;You can see a man in a black hat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">examine shady man</command>
+    <result xml:space="preserve">You should keep an eye on this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">attack Two Shady Man</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">attack shady man</command>
+    <result xml:space="preserve">attacked!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">x counter</command>
+    <result xml:space="preserve">In the glass counter are pepper spray and cigarrets.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
